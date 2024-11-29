@@ -15,9 +15,9 @@ class DriveExplorer:
         self.empty_directory_annotation = {"00files": []}
 
         # Loading the configurations
-        self.read_config_files()
+        self.__read_config_files()
 
-    def read_config_files(self):
+    def __read_config_files(self):
 
         if os.path.exists(self.folders_ignore_config):
             with open(self.folders_ignore_config, "r") as f:
