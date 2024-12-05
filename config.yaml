@@ -1,0 +1,20 @@
+folders_to_ignore:
+  - '$RECYCLE.BIN'
+  - 'System Volume Information'
+
+folders_to_only_name:
+  - 'Softwares'
+  - 'Entertainment'
+
+folder_name_pattern_to_ignore:
+  - '%download%'
+
+files_to_ignore:
+  - 'passwords.txt'
+
+file_types_to_ignore:
+  - 'exe'
+  - 'msi'
+
+file_name_pattern_to_ignore:
+  - '%download%''
