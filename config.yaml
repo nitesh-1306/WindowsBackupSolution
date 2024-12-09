@@ -1,6 +1,10 @@
 folders_to_ignore:
   - '$RECYCLE.BIN'
   - 'System Volume Information'
+  - '.git'
+  - 'vosk_model'
+  - '__pycache__'
+  - 'vosk-model-small-en-in-0.4'
 
 folders_to_only_name:
   - 'Softwares'
@@ -8,13 +12,18 @@ folders_to_only_name:
 
 folder_name_pattern_to_ignore:
   - '%download%'
+  - '%vosk%'
 
 files_to_ignore:
   - 'passwords.txt'
 
 file_types_to_ignore:
-  - 'exe'
-  - 'msi'
+  - '.exe'
+  - '.msi'
 
 file_name_pattern_to_ignore:
-  - '%download%''
+  - '%download%'
+
+drives_to_ignore:
+  - 'C:\'
+  # - 'W:\'
